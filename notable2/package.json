@@ -1,0 +1,17 @@
+{
+  "name": "notable2",
+  "version": "1.0.0",
+  "description": "A simple CRUD note taking console app build using Node js and Mysql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
+}
